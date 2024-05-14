@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T14:05:27.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="xEraLOfG7J_egyQeI9cS" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T14:06:18.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="Gu0VwaNtCVDISU8mgrOg" version="24.4.0" type="github">
   <diagram name="Página-1" id="jeI3qgtY-J405n5xUrlL">
     <mxGraphModel dx="880" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4AoyNDgUCIslxURrZOKb-1" value="Persona" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="40" width="160" height="150" as="geometry" />
+          <mxGeometry x="420" y="40" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="4AoyNDgUCIslxURrZOKb-2" value="&lt;div&gt;- nombre:String&lt;/div&gt;&lt;div&gt;- id: int&lt;/div&gt;&lt;div&gt;- direccion: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4AoyNDgUCIslxURrZOKb-1">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
@@ -13,8 +13,8 @@
         <mxCell id="4AoyNDgUCIslxURrZOKb-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4AoyNDgUCIslxURrZOKb-1">
           <mxGeometry y="90" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="4AoyNDgUCIslxURrZOKb-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4AoyNDgUCIslxURrZOKb-1">
-          <mxGeometry y="98" width="160" height="52" as="geometry" />
+        <mxCell id="4AoyNDgUCIslxURrZOKb-4" value="+ getNombre(): String&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;+ getIdentificación(): String&amp;nbsp; &lt;br&gt;+ getDirección(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4AoyNDgUCIslxURrZOKb-1">
+          <mxGeometry y="98" width="160" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
